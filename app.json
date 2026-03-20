@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "DollarPoint X",
+    "slug": "dollarpoint-x",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#07111C"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "pe.dollarpoint.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#07111C"
+      },
+      "package": "pe.dollarpoint.app"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}
