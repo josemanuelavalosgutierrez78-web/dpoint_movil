@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "DollarPoint X",
+    "slug": "dollarpoint-x",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0B1C2C"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0B1C2C"
+      },
+      "package": "com.dollarpoint.x",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.INTERNET"
+      ]
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.dollarpoint.x"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "dollarpointx",
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "apiBaseUrl": "https://dollarpoint-4.onrender.com/api/v1",
+      "whatsappNumber": "51999999999",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "11bb2f98-70aa-49cc-8ae6-43db54b9b5bd"
+      }
+    },
+    "owner": "jose120898"
+  }
+}
