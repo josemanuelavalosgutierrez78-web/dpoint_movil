@@ -34,7 +34,7 @@
       "typedRoutes": true
     },
     "extra": {
-      "apiBaseUrl": "https://dollarpointx.com/api",
+      "apiBaseUrl": "https://dollarpointx.com/api/v1",
       "whatsappNumber": "51999999999",
       "router": {
         "origin": false
