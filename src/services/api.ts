@@ -4,7 +4,7 @@ import Constants from 'expo-constants';
 
 const BASE_URL: string =
   (Constants.expoConfig?.extra?.apiBaseUrl as string) ||
-  'https://dollarpoint-4.onrender.com/api/v1';
+  'https://dollarpointx.com/api';
 
 // ── Token storage ─────────────────────────────────────────────────────────────
 export const tokenStorage = {
